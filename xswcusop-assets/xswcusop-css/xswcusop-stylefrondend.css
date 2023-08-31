@@ -1,0 +1,140 @@
+/*--------------------------------------------------------* 
+  [Main Stylesheet]
+    Name         : Xfinity Soft Upsell and order bump for woocommerce checkout 
+    Version      :  1.0
+    Author       :  Xfinitysoft
+--------------------------------------------------------
+*/
+/***********************************
+        0.0 )  Helping Classes        
+************************************/
+.xswcusop-actualprice {
+  text-decoration: line-through;
+}
+
+/***********************************
+        0.1 )  xsw-cusop-product        
+************************************/
+.xswcusop-swiper-contianer {
+  max-width: 1600px;
+}
+
+.xswcusop-f-product-top img {
+  width: 100%;
+  max-height: 438px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.xswcusop-f-product-desc {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0;
+  margin: 15px 0;
+  max-width: 100%;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  min-height: 44px;
+}
+
+.xswcusop-f-product-controls {
+  display: flex;
+  align-items: center;
+}
+
+.xswcusop-f-product-cart-form {
+  margin-right: 15px;
+  height: 25px;
+}
+
+.xswcusop-f-product-controls .price {
+  font-weight: 700;
+}
+
+/* Arrows */
+.xswcusop-swiper-contianer .xswcusop-swiperbutton-arrow {
+  width: 60px;
+  height: 80px;
+  overflow: hidden;
+  cursor: pointer;
+  color: rgba(0, 0, 0, .8);
+  text-shadow: 1px 1px 0 rgb(255 255 255 / 30%);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  font-size: 0;
+  text-align: center;
+  background-color: #fff;
+  outline: unset;
+}
+
+.swiper-button-next.xswcusop-swiperbutton-arrow {
+  margin-right: -80px;
+}
+
+.swiper-button-prev.xswcusop-swiperbutton-arrow {
+  margin-left: -80px;
+}
+
+.xswcusop-swiper-contianer:hover .xswcusop-swiperbutton-arrow {
+  opacity: 1;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.xswcusop-swiperbutton-arrow.swiper-button-disabled {
+  display: none !important;
+}
+
+/* Slider Position 01 */
+.woocommerce-checkout-review-order .xswcusop-swiper-contianer,
+.woocommerce-billing-fields .xswcusop-swiper-contianer {
+  max-width: 780px;
+  margin: 40px 0px;
+}
+
+.woocommerce-checkout-review-order .xswcusop-f-product-desc,
+.woocommerce-billing-fields .xswcusop-f-product-desc {
+  font-size: 16px;
+}
+
+.woocommerce-checkout-review-order .xswcusop-swiper-contianer .xswcusop-swiperbutton-arrow,
+.woocommerce-billing-fields .xswcusop-swiper-contianer .xswcusop-swiperbutton-arrow {
+  width: 30px;
+  height: 40px;
+  margin-top: -60px !important;
+}
+
+.woocommerce-checkout-review-order .xswcusop-swiper-contianer .xswcusop-swiperbutton-arrow:after,
+.woocommerce-billing-fields .xswcusop-swiper-contianer .xswcusop-swiperbutton-arrow:after {
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width : 768px) {
+
+  .woocommerce-checkout-review-order .xswcusop-swiper-contianer,
+  .woocommerce-billing-fields .xswcusop-swiper-contianer {
+    max-width: calc(100vw - 100px);
+  }
+
+  .woocommerce-checkout-review-order .xswcusop-swiper-contianer .xswcusop-swiperbutton-arrow,
+  .woocommerce-billing-fields .xswcusop-swiper-contianer .xswcusop-swiperbutton-arrow {
+    opacity: 1;
+    margin: 0px !important;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+
+  .woocommerce-checkout-review-order .xswcusop-swiper-contianer,
+  .woocommerce-billing-fields .xswcusop-swiper-contianer {
+    max-width: calc(100vw - 30px);
+  }
+}

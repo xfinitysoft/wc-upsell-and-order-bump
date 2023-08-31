@@ -1,0 +1,700 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xs-wc-upsell-orderbump\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-21 12:26+0500\n"
+"PO-Revision-Date: 2020-04-21 11:14+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_attr_e;esc_html__;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: xswcusop-frontend/xswcusop-orderbumpcheckoutpage.php:89
+#: xswcusop-frontend/xswcusop-upsellcheckoutpage.php:200
+msgid "xswcusop-actualprice"
+msgstr ""
+
+#: xswcusop-frontend/xswcusop-upsellcheckoutpage.php:123
+msgid "Continue"
+msgstr ""
+
+#: xswcusop-frontend/xswcusop-upsellcheckoutpage.php:611
+msgid "true"
+msgstr ""
+
+#: xswcusop-frontend/xswcusop-upsellcheckoutpage.php:612
+msgid "Product has been added into cart"
+msgstr ""
+
+#: xswcusop-frontend/xswcusop-upsellcheckoutpage.php:664
+msgid "upsell-funnel"
+msgstr ""
+
+#: xswcusop-frontend/xswcusop-upsellcheckoutpage.php:692
+msgid "failure"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-options.php:32
+#: xswcusop-includes/xswcusop-options.php:33
+msgid "Checkout Funnel"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-options.php:43
+#: xswcusop-includes/xswcusop-options.php:44
+msgid "Upsell Funnel"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-options.php:52
+#: xswcusop-includes/xswcusop-options.php:53
+msgid "Order Bump"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-options.php:66
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:29
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:28
+msgid "General Settings"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-options.php:67
+msgid "Order Bumps"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-options.php:84
+#: xswcusop-includes/xswcusop-options.php:124
+msgid "Save Changes"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-options.php:95
+msgid "General"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-options.php:96
+msgid "Rules & Products"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-options.php:98
+msgid "Design"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-options.php:99
+msgid "Custom CSS"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:6
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:6
+msgid "Enable"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:26
+msgid "Mobile enable"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:46
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:26
+msgid "Apply Coupon"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:62
+msgid " Apply coupon to Order Bump products in Cart"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:68
+msgid "Application of rules"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:74
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:93
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:245
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:406
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:425
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:73
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:90
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:139
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:159
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:142
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:82
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:168
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:194
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:249
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:414
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:434
+msgid "1"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:75
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:78
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:94
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:97
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:100
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:103
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:120
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:123
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:126
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:129
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:132
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:246
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:249
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:252
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:255
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:407
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:410
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:426
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:429
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:74
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:77
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:91
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:94
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:97
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:100
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:103
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:106
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:140
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:143
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:146
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:160
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:163
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:166
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:169
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:172
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:175
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:23
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:26
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:29
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:32
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:35
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:52
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:54
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:56
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:58
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:60
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:62
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:64
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:83
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:86
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:89
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:108
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:109
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:169
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:172
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:195
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:198
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:201
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:204
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:250
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:253
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:256
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:259
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:415
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:418
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:435
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:438
+msgid "selected"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:76
+msgid "All matched rules"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:77
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:96
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:248
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:409
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:93
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:142
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:162
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:197
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:252
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:417
+msgid "2"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:79
+msgid "The First Matched Rule"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:82
+msgid "If choose Apply all rules, all matched rule will be applied"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:87
+msgid "Position on checkout page"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:95
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:92
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:161
+msgid "Before billing details"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:98
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:95
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:164
+msgid "After billing details"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:99
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:251
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:76
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:96
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:145
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:165
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:200
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:255
+msgid "3"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:101
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:98
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:167
+msgid "Before order details"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:102
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:254
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:99
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:168
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:85
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:171
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:203
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:258
+msgid "4"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:104
+msgid "After payment gateways"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumpgeneral-tab.php:107
+msgid "Choose the position for Order Bump on checkout page"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:6
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:6
+msgid "Default"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:34
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:32
+msgid "Name"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:46
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:95
+msgid "Discount amount"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:58
+msgid "Product list"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:95
+msgid "Desing Settings"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:100
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:109
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:148
+msgid "Background"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:112
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:16
+msgid "Border style"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:119
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:22
+msgid "none"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:121
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:24
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:108
+msgid "None"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:122
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:25
+msgid "dashed"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:124
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:27
+msgid "Dashed"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:125
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:28
+msgid "double"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:127
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:30
+msgid "Double"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:128
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:31
+msgid "dotted"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:130
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:33
+msgid "Dotted"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:131
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:34
+msgid "solid"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:133
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:36
+msgid "Solid"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:139
+msgid "Border color"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:152
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:53
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:98
+msgid "Title"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:156
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:56
+msgid "Message"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:166
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:192
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:67
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:120
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:159
+msgid "Color"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:176
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:202
+msgid "Font size"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:188
+msgid "Content"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:218
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:222
+msgid "Cart Conditions"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:222
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:386
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:145
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:226
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:395
+msgid "Add Condition (And)"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:247
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:251
+msgid "Cart Sub Total"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:250
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:254
+msgid "Cart Total"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:253
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:257
+msgid "Include Cart Items"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:256
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:260
+msgid "Exclude  Cart Items"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:263
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:277
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:180
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:268
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:283
+msgid "Min price"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:270
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:284
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:187
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:275
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:290
+msgid "Max price"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:382
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:391
+msgid "Customer Conditions"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:408
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:416
+msgid "Limit per day"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:411
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:419
+msgid "Only logged in user"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:427
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:436
+msgid "yes"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:428
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:437
+msgid "0"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-orderbump/xswcusop-orderbumps-tab.php:430
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:439
+msgid "no"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:46
+msgid "Redirect to single page"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:67
+msgid "Style to display recommended products"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:75
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:141
+msgid "On checkout page"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:78
+msgid "redirect to another page after clicking Place order button"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:84
+msgid "Product position on checkout page"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:101
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:170
+msgid "Before payment gateway"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:102
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:171
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:88
+msgid "5"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:104
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:173
+msgid "After payment gateway"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:105
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:174
+msgid "6"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:107
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:176
+msgid "After  checkout form"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:112
+msgid "Mobile Enable"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:133
+msgid "Style to display a recommended product on mobile"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:144
+msgid " On popup after clicking place order button"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:147
+msgid "redirect to another page after clicking Place order” button"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellgeneral-tab.php:153
+msgid "Product position on checkout page on mobile"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulescustomcss-tab.php:5
+msgid "Custom Css"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:3
+msgid "Layout"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:6
+msgid "Border Color"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:41
+msgid "Border Width (PX)"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:79
+msgid "Font Size"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:94
+msgid "Continue Button"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:134
+msgid "Product List"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:138
+msgid "Template"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesdesing-tab.php:143
+msgid "Add to cart with checkbox"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:43
+msgid "Days"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:52
+msgid "sunday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:53
+msgid "Sunday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:54
+msgid "monday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:55
+msgid "Monday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:56
+msgid "tuesday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:57
+msgid "Tuesday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:58
+msgid "wednesday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:59
+msgid "Wednesday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:60
+msgid "thursday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:61
+msgid "Thursday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:62
+msgid "friday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:63
+msgid "Friday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:64
+msgid "saturday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:65
+msgid "Saturday"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:71
+msgid "Recommended Products"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:75
+msgid "Type"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:84
+msgid "Recently published products"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:87
+msgid "Up-sells of products in the cart"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:90
+msgid "Cross-sell of products in the cart"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:110
+msgid "Percentage (%)"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:115
+msgid "Product Quantity Limit"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:126
+msgid "Product Limit"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:141
+msgid "Conditions of Products"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:170
+msgid "Product Price"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:173
+msgid "Product visibility"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:196
+msgid "Shop and search result "
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:199
+msgid "Shop only"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:202
+msgid "Search result only"
+msgstr ""
+
+#: xswcusop-includes/xswcusop-upsell/xswcusop-upsellrulesproducts-tab.php:205
+msgid "hidden"
+msgstr ""

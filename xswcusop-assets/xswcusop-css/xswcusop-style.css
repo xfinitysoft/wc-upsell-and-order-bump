@@ -1,0 +1,268 @@
+/*
+--------------------------------------------------------* 
+[Main Stylesheet For Admin Panel]
+    Name         : Xfinity Soft Upsell and order bump for woocommerce checkout 
+    Version      :  1.0
+    Author       :  Xfinitysoft
+--------------------------------------------------------*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css');
+
+/***********************************
+        0.0 )  Helping Classes        
+************************************/
+
+
+/***********************************
+            1 ) Tabs Panel        
+************************************/
+.xsfsb-nav-tab-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+.xsfsb-nav-tab-wrapper li {
+  margin: 0px;
+}
+
+.xsfsb-nav-tab-wrapper li a.nav-tab {
+  cursor: pointer;
+}
+
+/***********************************
+      2) Accardion        
+************************************/
+div#xsw_accordion {
+  max-width: 800px;
+  margin: 20px 0px;
+}
+
+.xsw_accordion-container {
+  border: 1px solid #c3c4c7;
+  border-top: none;
+}
+
+.xsw_accordion-container .accordion-section-title {
+  background: #fff !important;
+  border: none;
+  border-top: 1px solid #c3c4c7;
+}
+
+.xsw_accordion-container .accordion-section-title:after {
+  display: none !important;
+}
+
+.xsw_accordion-container span.ui-accordion-header-icon.ui-icon {
+  border: solid #50575e;
+  border-width: 0 2px 2px 0;
+  height: .5rem;
+  pointer-events: none;
+  position: absolute;
+  right: 1.5em;
+  top: 50%;
+  transform: translateY(-70%) rotate(45deg);
+  width: .5rem;
+}
+
+.xsw_accordion-container .ui-accordion-header-active span.ui-accordion-header-icon.ui-icon {
+  transform: translateY(-30%) rotate(-135deg);
+}
+
+/* ================= */
+/*xsfsb toggle switch*/
+/* ================= */
+.xsfsb-new-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 27px;
+}
+
+.xsfsb-new-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.xsfsb-new-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e4e4e485;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.xsfsb-new-slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #ffffff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.xsfsb-new-switch input:checked+.xsfsb-new-slider {
+  background-color: #2271b1;
+}
+
+.xsfsb-new-switch input:focus+.xsfsb-new-slider {
+  box-shadow: 0 0 1px #2271b1;
+}
+
+.xsfsb-new-switch input:checked+.xsfsb-new-slider:before {
+  -webkit-transform: translateX(23px);
+  -ms-transform: translateX(23px);
+  transform: translateX(23px);
+}
+
+.xsfsb-new-slider.round {
+  border-radius: 34px;
+}
+
+.xsfsb-new-slider.round:before {
+  border-radius: 50%;
+}
+
+
+/*xswcusop style wrapper*/
+.xswcusop-style-wrapper {
+  position: relative;
+  max-width: 100%;
+}
+
+.xswcusop-style-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.xswcusop-single-style {
+  width: 33.33333333%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  padding-left: .5em;
+  padding-right: .5em;
+  clear: both;
+  margin: 0 0 1em;
+}
+
+.xswcusop-style-switch {
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+  margin: 1rem 0;
+  padding: 1em;
+  border-radius: .28571429rem;
+  border: 1px solid rgba(34, 36, 38, .15);
+}
+
+.xswcusop-single-style img {
+  max-width: 100%;
+}
+
+.xswcusop-switches-effect-checkbox {
+  width: 389px !important;
+}
+
+@media only screen and (max-width : 736px) {
+
+  #xswcusop-tabs,
+  .xswcusop-style-inner {
+    flex-wrap: wrap;
+  }
+
+  .xswcusop-table th {
+    display: block;
+    padding-bottom: 12px;
+  }
+
+  .xswcusop-table td {
+    display: block;
+    padding: 0 0 10px;
+  }
+
+  .xswcusop-single-style {
+    width: 100%;
+  }
+}
+
+.xswcusop-upsell-rules-cpmaxamount,
+.xswcusop-upsell-rules-cpminamount {
+  width: 100%;
+}
+
+.xswcusop-upsell-rules-cptype-1,
+.xswcusop-upsell-rules-cartcotype-1,
+.xswcusop-upsell-rules-customercotype {
+  display: none;
+}
+
+.xswcusop-conditions-deldiv,
+.xswcusop-cartcotype-deldiv,
+.xswcusop-customerexcludeuser-deldiv {
+  cursor: pointer;
+  color: black;
+  font-size: 19px;
+}
+
+
+.xswcusop-select2-160 .select2-container {
+  min-width: 160px;
+}
+.xs-col-button {
+    width:380px;
+    float: left;
+    
+}
+.xs-button-main{
+    display: inline-block;
+    width: 160px
+}
+.xs-button-main p.submit{
+    margin: 0px;
+    padding-bottom: 0px;
+}
+#xs_name,#xs_email{
+    width: 335px;
+}
+.xs-send-email-notice{
+  display: none;
+}
+.xs-notice-dismiss{
+  display:none;
+}
+.xs-send-mail{
+    font-size: 15px !important;
+    font-family: bold;
+    padding: 2px 15px !important;
+}
+.xs_is_active{
+    display:inline-block;
+    visibility:visible;
+    opacity:1
+}
+.xs-top-margin{
+    margin-top: 20px !important; 
+}
+.xs-mail-spinner{
+    margin-top: 38px ;
+}
+.error{
+    outline: 1px solid red;
+}
+.input-group{
+    display: inline-flex;
+}
